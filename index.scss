@@ -73,3 +73,20 @@ section:nth-child(3) {
 section:nth-child(4) {
   background-color: #fff;
 }
+
+@media screen and (min-width: 2500px) {
+  section {
+    height: 300vh!important;
+  }
+}
+
+hr {
+  position: fixed;
+  top: 40%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: blue;
+  border: none;
+  width: 100%;
+}
